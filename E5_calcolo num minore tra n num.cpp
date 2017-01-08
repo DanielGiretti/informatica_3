@@ -8,12 +8,12 @@ main()
 	int somma;
 	int i;
 	int media;
-	printf("inserisciil la quantit‡ di numeri");
-	scanf("%d",n);
+	printf("inserisciil la quantit√† di numeri");
+	scanf("%d",&n);
 	i=0;
 	while(i<=n){
 		printf("inserisci un numero");
-		scanf("%d",num);
+		scanf("%d",&num);
 		somma=somma+num;
 		i++;
 	}
